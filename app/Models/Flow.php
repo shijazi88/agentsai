@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Flow extends Model {
+    protected $fillable = ['name', 'nodes', 'connections'];
+    protected $casts = [
+        'nodes' => 'array',
+        'connections' => 'array',
+    ];
+}
+

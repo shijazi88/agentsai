@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.saved-flows ul {
+    list-style-type: none;
+    padding: 0;
+}
+.saved-flows li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.saved-flows li:hover {
+    background-color: #e0e0e0;
+}

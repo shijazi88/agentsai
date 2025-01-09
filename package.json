@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.9",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.17",
+        "vite": "^6.0"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "pinia": "^2.3.0",
+        "rete": "^2.0.5",
+        "rete-area-plugin": "^2.1.3",
+        "rete-connection-plugin": "^2.0.5",
+        "rete-engine": "^2.1.1",
+        "rete-vue-plugin": "^2.1.1",
+        "vue": "^3.5.13",
+        "vue3-toastify": "^0.2.8"
+    }
+}
